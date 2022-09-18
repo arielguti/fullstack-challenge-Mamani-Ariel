@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+* {
+ font-family: 'Comfortaa';
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+.color-square {
+ text-shadow: 0 0 3px #000000;
+ width: 200px;
+ display: inline-block;
+ color: white;
+ border-radius: 30px;
+ border: none;
+ padding: 20px;
+ margin: 10px;
+ transition: box-shadow 0.3s;
+}
+
+.color-square:hover {
+ box-shadow: 0 0 10px #686868;
+}
+
+.loading-text {
+ font-size: 20px;
+ font-weight: bold;
+ text-align: center;
+ margin-top: 40px;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.cards {
+  display: inline-flex;
+  gap: 1rem;
+}
+
+.img-char {
+  width: 300px;
+  /* margin-left-right: auto;*/
+  margin: 40px auto 40px auto;
+  border: #686868 2px solid;
+  padding: 2px;
+}
